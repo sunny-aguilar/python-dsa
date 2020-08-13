@@ -25,6 +25,7 @@ using the same input size
 to specific input
 - the algorithms must be tested on the same exact hardware otherwise faster hardware will have a
 an advantage over a better algorithm running on slower hardware.
+- computer languages are implemented differently
 
 ### Analytical Evaluation
 Since comparing algorithms has various factores that make it almost impossible to evaluate, we
