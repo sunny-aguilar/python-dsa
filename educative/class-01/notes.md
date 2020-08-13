@@ -58,13 +58,7 @@ arithmetic operations, and calling a function.
 The running time of an algorithm is also known as its ***time complexity***. The ***space complexity*** of
 an algorithm is the amount of additional memory space that the algorithm requires.
 
-### Asymptotic Analysis
-
-
-
-
-
 
 ## 2. Intro to Asymptotic Analysis and Big O
-
+Asymptotic analysis is a way to classify the running time complexity of algorithms.
 
