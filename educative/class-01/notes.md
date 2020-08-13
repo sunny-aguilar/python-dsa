@@ -43,7 +43,7 @@ A ***primitive operation*** can be considered simple operations that are typical
 as processor instructions. This includes assignment, reading from a variable, comparing two values,
 arithmetic operations, and calling a function.
 
-### Asymptotic Analysis
+### Types of  Analysis
 **Worst Case Analysis**
 - maximum time of algorithm over all inputs of size **n**
 - provides an upper bound on running time
@@ -54,7 +54,7 @@ arithmetic operations, and calling a function.
 
 **Best Case Analysis**
 
-
+### Asymptotic Analysis
 
 
 
