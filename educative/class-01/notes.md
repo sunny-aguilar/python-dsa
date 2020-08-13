@@ -63,4 +63,7 @@ an algorithm is the amount of additional memory space that the algorithm require
 Asymptotic analysis is a way to classify the running time complexity of algorithms. We have
 seen that the time complexity of an algorithm can be expressed as a polynomial.
 
+### Asymptotic Analysis
+We can observe that we only want to worry about large input sizes only (how bad can a poorly
+designed algorithm get?)
 
