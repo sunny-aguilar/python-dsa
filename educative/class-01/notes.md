@@ -60,5 +60,7 @@ an algorithm is the amount of additional memory space that the algorithm require
 
 
 ## 2. Intro to Asymptotic Analysis and Big O
-Asymptotic analysis is a way to classify the running time complexity of algorithms.
+Asymptotic analysis is a way to classify the running time complexity of algorithms. We have
+seen that the time complexity of an algorithm can be expressed as a polynomial.
+
 
