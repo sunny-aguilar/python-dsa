@@ -69,4 +69,5 @@ designed algorithm get?) Mathematicians have a tool for this sort of analysis ca
 notation***. Asymptotic notation compares two functions, say f(n) and g(n) for very large values
 of **n**.
 - we are comparing functions in the limit (asymptotically)
-- 
+- we are comparing functions where n -> infinity (what happens as **n** goes to infinity)
+- lim -> ∞ f(n)
