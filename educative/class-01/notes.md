@@ -1,14 +1,14 @@
 # Comparing Algorithms
 
 ## 1. Intro to Complexity Measures
-How do we know which algorithm is better when we compare two algorithms that accomlish<br />
+How do we know which algorithm is better when we compare two algorithms that accomlish
 the same goal?
 
 ### Important Criteria: Time and Space
-- One important aspect that determines the "goodness" of an algorithm is the amount of time<br />
+- One important aspect that determines the "goodness" of an algorithm is the amount of time
 it takes to solve a given problem. Faster is better.
 
-Another aspect to consider is the amount of memory required to solve an algorithm. Less<br />
+Another aspect to consider is the amount of memory required to solve an algorithm. Less
 memory used is better.
 
 The goals of an algorithm are:
