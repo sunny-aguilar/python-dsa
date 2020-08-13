@@ -27,7 +27,8 @@ to specific input
 an advantage over a better algorithm running on slower hardware.
 
 ### Analytical Evaluation
-
+Since comparing algorithms has various factores that make it almost impossible to evaluate, we
+are forced to do an analytical / theoretical comparison.
 
 
 ## 2. Intro to Asymptotic Analysis and Big O
