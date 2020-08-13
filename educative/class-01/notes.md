@@ -66,5 +66,6 @@ seen that the time complexity of an algorithm can be expressed as a polynomial.
 ### Asymptotic Analysis
 We can observe that we only want to worry about large input sizes only (how bad can a poorly
 designed algorithm get?) Mathematicians have a tool for this sort of analysis called ***asymptotic
-notation***. Asymptotic notation
+notation***. Asymptotic notation compares two functions, say f(n) and g(n) for very large values
+of **n**.
 
