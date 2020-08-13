@@ -7,6 +7,7 @@ the same goal?
 ### Important Criteria: Time and Space
 - One important aspect that determines the "goodness" of an algorithm is the amount of time<br />
 it takes to solve a given problem. Faster is better.
+
 Another aspect to consider is the amount of memory required to solve an algorithm. Less<br />
 memory used is better.
 The goals of an algorithm are:
