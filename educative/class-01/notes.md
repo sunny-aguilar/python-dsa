@@ -53,7 +53,10 @@ arithmetic operations, and calling a function.
 - expected time of algorithm over all input of size **n** (sometimes used)
 
 **Best Case Analysis**
-- not reliable, never used!
+- not reliable, of limited value, never used!
+
+The running time of an algorithm is also known as its **time complexity***. The **space complexity** of
+an algorithm is the amount of additional memory space that the algorithm requires.
 
 ### Asymptotic Analysis
 
