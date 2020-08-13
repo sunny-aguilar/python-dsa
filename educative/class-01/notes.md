@@ -35,7 +35,7 @@ However, two key points remain:
 - we must consider all possible inputs of the given size
 
 We assume a hypothetical computer on which some primitive operations are executed. We consider
-a specific input size n. We then count the number of operations executed by an algorithm for a
+a specific input size **n**. We then count the number of operations executed by an algorithm for a
 given input. The algorithm that results in fewer primitive operations is considered better.
 
 A ***primitive operation*** can be considered simple operations that are typically implemented
@@ -44,10 +44,10 @@ arithmetic operations, and calling a function.
 
 ### Asymptotic Analysis
 **Worst Case Analysis**
-- maximum time of algorithm over all inputs of size n
+- maximum time of algorithm over all inputs of size **n**
 
 **Average Case Analysis**
-- expected time of algorithm over all input of size n (sometimes used)
+- expected time of algorithm over all input of size **n** (sometimes used)
 
 **Best Case Analysis**
 
