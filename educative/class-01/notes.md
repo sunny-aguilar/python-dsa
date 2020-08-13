@@ -23,6 +23,9 @@ approach:
 using the same input size
 - the input given to both algorithms needs to be the same in order to prevent any disadvantages due<br />
 to specific input
+- the algorithms must be tested on the same exact hardware otherwise faster hardware will have a
+an advantage over a better algorithm running on slower hardware.
+
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
