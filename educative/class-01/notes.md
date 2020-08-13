@@ -53,7 +53,7 @@ arithmetic operations, and calling a function.
 - expected time of algorithm over all input of size **n** (sometimes used)
 
 **Best Case Analysis**
-
+- not reliable, never used!
 
 ### Asymptotic Analysis
 
