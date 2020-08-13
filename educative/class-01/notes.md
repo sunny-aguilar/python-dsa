@@ -19,7 +19,8 @@ time and the algorithm that finishes first will win. However, there are many iss
 approach:
 - input size can have a large impact on execution time therefore both algorithms must be tested<br />
 using the same input size
-- the input given to both algorithms needs to be the same in order to prevent any disadvantages
+- the input given to both algorithms needs to be the same in order to prevent any disadvantages due<br />
+to specific input
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
