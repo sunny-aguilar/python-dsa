@@ -26,6 +26,7 @@ to specific input
 - the algorithms must be tested on the same exact hardware otherwise faster hardware will have a
 an advantage over a better algorithm running on slower hardware.
 
+### Analytical Evaluation
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
