@@ -30,6 +30,10 @@ an advantage over a better algorithm running on slower hardware.
 Since comparing algorithms has various factores that make it almost impossible to evaluate, we
 are forced to do an analytical / theoretical comparison.
 
+However, two key points remain:
+- we must compare algorithms for the same input size
+- we must consider all possible inputs of the given size
+
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
