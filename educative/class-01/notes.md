@@ -10,6 +10,9 @@ it takes to solve a given problem. Faster is better.<br />
 - Another aspect to consider is the amount of memory required to solve an algorithm. Less<br />
 memory used is better.
 
+### How Do We Compare Execution Time?
+
+
 ## 2. Intro to Asymptotic Analysis and Big O
 
 
