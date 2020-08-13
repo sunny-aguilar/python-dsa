@@ -8,7 +8,7 @@
 function push_commit()
 {
     #commit changes
-    git commit -am 'react'
+    git commit -am 'data-structures-and-algorithms'
     # push to github
     git push
 }
@@ -16,7 +16,7 @@ function push_commit()
 function commit()
 {
     # commt changes only
-    git commit -am 'react'
+    git commit -am 'data-structures-and-algorithms'
 }
 
 # what to run
