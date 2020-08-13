@@ -38,8 +38,9 @@ We assume a hypothetical computer on which some primitive operations are execute
 a specific input size n. We then count the number of operations executed by an algorithm for a
 given input. The algorithm that results in fewer primitive operations is considered better.
 
-A ***primitive operations*** can be considered simple operations that are typically implemented
-as processor instructions.
+A ***primitive operation*** can be considered simple operations that are typically implemented
+as processor instructions. This includes assignment, reading from a variable, comparing two values,
+arithmetic operations, and calling a function.
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
