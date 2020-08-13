@@ -43,13 +43,19 @@ as processor instructions. This includes assignment, reading from a variable, co
 arithmetic operations, and calling a function.
 
 ### Asymptotic Analysis
-**Best Case Analysis**
+**Worst Case Analysis**
 
 
 **Average Case Analysis**
 
 
-**Worst Case Analysis**
+**Best Case Analysis**
+
+
+
+
+
+
 
 
 ## 2. Intro to Asymptotic Analysis and Big O
