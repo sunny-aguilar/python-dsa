@@ -46,6 +46,8 @@ arithmetic operations, and calling a function.
 ### Asymptotic Analysis
 **Worst Case Analysis**
 - maximum time of algorithm over all inputs of size **n**
+- provides an upper bound on running time
+- an absolute guarantee that the algorithm would not run longer no matter what the inputs are
 
 **Average Case Analysis**
 - expected time of algorithm over all input of size **n** (sometimes used)
