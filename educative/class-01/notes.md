@@ -42,7 +42,7 @@ A ***primitive operation*** can be considered simple operations that are typical
 as processor instructions. This includes assignment, reading from a variable, comparing two values,
 arithmetic operations, and calling a function.
 
-### Kinds of Analysis
+### Asymptotic Analysis
 **Best Case Analysis**
 
 
