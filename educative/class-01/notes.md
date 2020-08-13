@@ -34,7 +34,7 @@ However, two key points remain:
 - we must compare algorithms for the same input size
 - we must consider all possible inputs of the given size
 
-
+We assume a hypothetical computer on which some primitive operations are executed
 
 
 ## 2. Intro to Asymptotic Analysis and Big O
