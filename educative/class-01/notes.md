@@ -44,10 +44,10 @@ arithmetic operations, and calling a function.
 
 ### Asymptotic Analysis
 **Worst Case Analysis**
-
+- maximum time of algorithm over all inputs of size n
 
 **Average Case Analysis**
-
+- expected time of algorithm over all input of size n (sometimes used)
 
 **Best Case Analysis**
 
