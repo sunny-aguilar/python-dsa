@@ -9,7 +9,7 @@ the same goal?
 it takes to solve a given problem. Faster is better.
 
 Another aspect to consider is the amount of memory required to solve an algorithm. Less<br />
-memory used is better.
+memory used is better.<br />
 The goals of an algorithm are:
 - always correct
 - always terminates
