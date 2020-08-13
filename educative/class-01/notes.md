@@ -16,12 +16,12 @@ The goals of an algorithm are:
 - always terminates
 
 ### How Do We Compare Execution Time?
-One can always compare to algorithms by running them on a computer while measuring the execution<br />
-time and the algorithm that finishes first will win. However, there are many issues with this<br />
+One can always compare to algorithms by running them on a computer while measuring the execution
+time and the algorithm that finishes first will win. However, there are many issues with this
 approach:
-- input size can have a large impact on execution time therefore both algorithms must be tested<br />
+- input size can have a large impact on execution time therefore both algorithms must be tested
 using the same input size
-- the input given to both algorithms needs to be the same in order to prevent any disadvantages due<br />
+- the input given to both algorithms needs to be the same in order to prevent any disadvantages due
 to specific input
 - the algorithms must be tested on the same exact hardware otherwise faster hardware will have a
 an advantage over a better algorithm running on slower hardware.
