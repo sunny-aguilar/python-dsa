@@ -9,6 +9,9 @@ the same goal?
 it takes to solve a given problem. Faster is better.<br />
 - Another aspect to consider is the amount of memory required to solve an algorithm. Less<br />
 memory used is better.
+The goals of an algorithm are:
+- always correct
+- always terminates
 
 ### How Do We Compare Execution Time?
 
