@@ -55,7 +55,7 @@ arithmetic operations, and calling a function.
 **Best Case Analysis**
 - not reliable, of limited value, never used!
 
-The running time of an algorithm is also known as its **time complexity**. The **space complexity** of
+The running time of an algorithm is also known as its ***time complexity***. The ***space complexity*** of
 an algorithm is the amount of additional memory space that the algorithm requires.
 
 ### Asymptotic Analysis
