@@ -45,9 +45,12 @@ arithmetic operations, and calling a function.
 ### Kinds of Analysis
 **Best Case Analysis**
 
+
 **Average Case Analysis**
 
+
 **Worst Case Analysis**
+
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
