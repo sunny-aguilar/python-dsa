@@ -39,6 +39,7 @@ a specific input size n. We then count the number of operations executed by an a
 given input. The algorithm that results in fewer primitive operations is considered better.
 
 
+
 ## 2. Intro to Asymptotic Analysis and Big O
 
 
