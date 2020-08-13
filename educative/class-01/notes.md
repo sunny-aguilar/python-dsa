@@ -71,3 +71,9 @@ of **n**.
 - we are comparing functions in the limit (asymptotically)
 - we are comparing functions where n -> infinity (what happens as **n** goes to infinity)
 - lim -> ∞ f(n)
+
+Constant factors:
+- constants can be ignored for large **n** i.e. n + 5 = n
+- coeficients can be ignored for large **n** i.e. 2n = 2
+
+
