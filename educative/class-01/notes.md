@@ -17,7 +17,9 @@ The goals of an algorithm are:
 One can always compare to algorithms by running them on a computer while measuring the execution<br />
 time and the algorithm that finishes first will win. However, there are many issues with this<br />
 approach:
-- 
+- input size can have a large impact on execution time therefore both algorithms must be tested<br />
+using the same input size
+- the input given to both algorithms needs to be the same in order to prevent any disadvantages
 
 ## 2. Intro to Asymptotic Analysis and Big O
 
