@@ -35,6 +35,8 @@ However, two key points remain:
 - we must consider all possible inputs of the given size
 
 
+
+
 ## 2. Intro to Asymptotic Analysis and Big O
 
 
