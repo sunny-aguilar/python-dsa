@@ -114,7 +114,7 @@ sum = 0                       // C₁
 for (i =0; i < n; i++) {      // C₂⋅n
   sum += array[i]
 }
-return sum
+return sum                    // C
 ```
 
 ###
