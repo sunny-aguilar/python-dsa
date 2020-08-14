@@ -134,7 +134,8 @@ Total run time = C₁ + C₂⋅n + C₃
 
 
 ### Simplified Asymptotic Analysis
-
+Like mentioned previously, once we have obtained the time complexity of an algorithm by counting primitive operations, we can arrive at the Big O notation for the algorithm by:
+- 
 
 
 
