@@ -138,7 +138,7 @@ This table lists some commonly encountered functions in ascending order of rate 
 >
 > Logarithmic O(log n)
 >
-> Square Root O(sqrt(n))
+> Square Root O(√n)
 >
 > Quadratic O(n²)
 >
@@ -159,7 +159,6 @@ Like mentioned previously, once we have obtained the time complexity of an algor
 > ### Example
 > n² + 2n + 1 is O(n²)<br />
 > n⁵ + 4n³ + 2n + 43 is O(n⁵)
-
 
 **Polynomials of degree K is O(kⁿ)**
 All polynomial functions f(n) of degree k are O(kⁿ). See proof. The polynomial proof tells you that you can ignore all the other terms in the polynomial because they are dominated by the leading term.
