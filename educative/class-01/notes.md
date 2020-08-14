@@ -84,6 +84,7 @@ There are three main ways to classify the bounds of an algorithm:
 
 ### Big O Notation
 - asymptotic "less than" i.e. upper bound
+- f(n) = O(g(n))
 
 ### Big Omega Notation
 
