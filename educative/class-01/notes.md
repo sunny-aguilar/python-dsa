@@ -138,11 +138,11 @@ Total run time = C₁ + C₂⋅n + C₃
 >
 > Polynomial O()
 >
-> Cubic O()
+> Cubic O(n³)
 >
-> Quadratic O()
+> Quadratic O(n²)
 >
-> Square Root O()
+> Square Root O(sqrt(n))
 >
 > Logarithmic O(log n)
 >
