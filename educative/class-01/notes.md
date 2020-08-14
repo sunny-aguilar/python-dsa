@@ -122,6 +122,7 @@ Total run time = C₁ + C₂⋅n + C₃
 **What is the Big O runtime?**
 - for big O, constants don't matter (we drop them)
 - C₁, C₂, C₃ are hardware dependent so they don't matter
+- O(n)is runtime (linear time)
 
 ###
 
