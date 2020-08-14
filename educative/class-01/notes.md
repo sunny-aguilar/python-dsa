@@ -77,7 +77,7 @@ Constant factors:
 - coeficients can be ignored for large **n** i.e. 2n = 2
 
 ### Asymptotic Notation
-
+There are three main ways to classify the bounds of an algorithm.
 
 
 
