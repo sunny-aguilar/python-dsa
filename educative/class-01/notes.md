@@ -96,9 +96,12 @@ There are three main ways to classify the bounds of an algorithm:
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/omega.png" width="400px">
 
 ### Big Theta Notation
-- asymptotic "equality"
+Θ(g(n)) = { f(n): there exist positive constants C₁ and C₂ and n₀ such that 0 ≤ C₁⋅g(n) ≤ C₂⋅g(n) for all n ≥ n₀
+- g(n) is an asymptotically tight bound for f(n)
+- this means that when a run time is Θ(g(n)), the run time is at least C₁⋅g(n) and at most C₂⋅g(n)
 - tightly bound i.e. "ideal" bound (growing at the same rate)
 - f(n) = Θ(g(n)) implies: f(n) = g(n)
+<img src="https://cdn.kastatic.org/ka-perseus-images/c14a48f24cae3fd563cb3627ee2a74f56c0bcef6.png" width="400px">
 
 ### Big O Notation Definition
 O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n) ≤ c⋅g(n) for all n ≥ n₀<br />
