@@ -89,11 +89,11 @@ There are three main ways to classify the bounds of an algorithm:
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/big0.png" width="400px">
 
 ### Big Omega Notation
-- asymptotic "greater than"
+Ω(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ c⋅g(n) ≤ f(n) for all n ≥ n₀
+- g(n) is an asymptotic lower bound for f(n)
 - lower bound
 - f(n) = Ω(g(n)) implies: f(n) ≥ g(n)
-
-![Big Ω Graph](https://cdn.programiz.com/sites/tutorial2program/files/big0.png)
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/omega.png" width="400px">
 
 ### Big Theta Notation
 - asymptotic "equality"
@@ -101,20 +101,19 @@ There are three main ways to classify the bounds of an algorithm:
 - f(n) = Θ(g(n)) implies: f(n) = g(n)
 
 ### Big O Notation Definition
-O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n) ≤ c*g(n) for all n ≥ n₀<br />
+O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n) ≤ c⋅g(n) for all n ≥ n₀<br />
 ( { f(n): means "the set of all f(n) such that... )
 - g(n) is an asymptotic upper bound for f(n)
 - we only care for n beyond n₀
 - what good is this? it tells us that for very large values of n, f(n) will be at most within a constant factor C of g(n)
-
-![Big O Graph](https://i.stack.imgur.com/zc02g.jpg)
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/big0.png" width="400px">
 
 **Relate to Code**
 This code snippet shows a simple loop & the cost to run it. We get an equation from this which is the run time.
 
 ```
 sum = 0                       // C₁ - executes in contant time
-for (i =0; i < n; i++) {      // C₂⋅n - executes in C₂⋅n  time
+for (i = 0; i < n; i++) {      // C₂⋅n - executes in C₂⋅n  time
   sum += array[i]
 }
 return sum                    // C₃ - executes in contant time
