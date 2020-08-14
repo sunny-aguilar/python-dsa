@@ -97,7 +97,7 @@ There are three main ways to classify the bounds of an algorithm:
 - tightly bound i.e. "ideal" bound (growing at the same rate)
 - f(n) = Θ(g(n)) implies: f(n) = g(n)
 
-
+### Big O Notation Definition
 
 
 
