@@ -82,6 +82,10 @@ There are three main ways to classify the bounds of an algorithm:
 - Big Omega Ω Notation
 - Big Theta Θ Notation
 
+### Big O Notation
 
 
+### Big Omega Notation
 
+
+### Big Theta Notation
