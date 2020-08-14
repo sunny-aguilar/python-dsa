@@ -96,3 +96,8 @@ There are three main ways to classify the bounds of an algorithm:
 - asymptotic "equality"
 - tightly bound i.e. "ideal" bound (growing at the same rate)
 - f(n) = Θ(g(n)) implies: f(n) = g(n)
+
+
+
+
+
