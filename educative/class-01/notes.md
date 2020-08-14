@@ -86,7 +86,7 @@ There are three main ways to classify the bounds of an algorithm:
 - asymptotic "less than"
 - upper bound
 - f(n) = O(g(n)) implies: f(n) ≤ g(n)
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/big0.png" width="300px">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/big0.png" width="400px">
 
 ### Big Omega Notation
 - asymptotic "greater than"
