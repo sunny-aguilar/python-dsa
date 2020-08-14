@@ -87,6 +87,7 @@ There are three main ways to classify the bounds of an algorithm:
 - f(n) = O(g(n)) implies : f(n) ≤ g(n)
 
 ### Big Omega Notation
-
+-
 
 ### Big Theta Notation
+-
