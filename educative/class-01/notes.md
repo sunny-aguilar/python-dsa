@@ -93,4 +93,4 @@ There are three main ways to classify the bounds of an algorithm:
 - f(n) = Ω(g(n)) implies: f(n) ≥ g(n)
 
 ### Big Theta Notation
--
+- asymptotic "equality"
