@@ -150,6 +150,7 @@ This table lists some commonly encountered functions in ascending order of rate 
 >
 > Factorial O(n!)
 
+
 ### Simplified Asymptotic Analysis
 Like mentioned previously, once we have obtained the time complexity of an algorithm by counting primitive operations, we can arrive at the Big O notation for the algorithm by:
 - dropping the multiplicative constants with all terms
