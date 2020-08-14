@@ -124,5 +124,7 @@ Total run time = C₁ + C₂⋅n + C₃
 - C₁, C₂, C₃ are hardware dependent so they don't matter
 - O(n)is runtime (linear time) in this case since we only have one n
 
-###
+**Nonlinear Time**
+
+### 
 
