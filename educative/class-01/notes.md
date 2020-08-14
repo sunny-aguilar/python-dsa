@@ -138,8 +138,9 @@ Like mentioned previously, once we have obtained the time complexity of an algor
 - dropping the multiplicative constants with all terms
 - dropping all bu the highest order term
 
-  > n² + 2n + 1 is O(n²)<br />
-  > n⁵ + 4n³ + 2n + 43 is O(n⁵)
+> ### Example
+> n² + 2n + 1 is O(n²)<br />
+> n⁵ + 4n³ + 2n + 43 is O(n⁵)
 
 
 **Polynomials of degree K is O(kⁿ)**
