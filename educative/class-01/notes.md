@@ -91,6 +91,7 @@ There are three main ways to classify the bounds of an algorithm:
 - asymptotic "greater than"
 - lower bound
 - f(n) = Ω(g(n)) implies: f(n) ≥ g(n)
+![Big Ω Graph](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fericdrowell%2FBigOCheatSheet%2Fissues%2F38&psig=AOvVaw2HhIeWG6f3oVXHKV8bSVQS&ust=1597533713163000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi_5__qm-sCFQAAAAAdAAAAABAO)
 
 ### Big Theta Notation
 - asymptotic "equality"
