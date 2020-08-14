@@ -136,7 +136,7 @@ Total run time = C₁ + C₂⋅n + C₃
 >
 > Exponential O()
 >
-> Polynomial O()
+> Polynomial O(nⁱ)
 >
 > Cubic O(n³)
 >
