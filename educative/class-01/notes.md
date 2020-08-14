@@ -98,6 +98,6 @@ There are three main ways to classify the bounds of an algorithm:
 - f(n) = Θ(g(n)) implies: f(n) = g(n)
 
 ### Big O Notation Definition
-O(g(n)) = { f(n): there exist
+O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n) ≤ c*g(n) for all n ≥ n₀
 
 ###
