@@ -134,9 +134,9 @@ Total run time = C₁ + C₂⋅n + C₃
 
 > Factorial O(n!)
 >
-> Exponential O()
+> Exponential O(k^n)
 >
-> Polynomial O(nⁱ)
+> Polynomial O(n^k)
 >
 > Cubic O(n³)
 >
