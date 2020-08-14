@@ -133,21 +133,22 @@ Total run time = C₁ + C₂⋅n + C₃
 ![Time Complexity](https://assets.digitalocean.com/articles/alligator/js/big-o-notation/o-complexity.png)
 
 ### Comparison of Some Common Functions
-> Factorial O(n!)
->
-> Exponential O(k^n)
->
-> Polynomial O(n^k)
->
-> Cubic O(n³)
->
-> Quadratic O(n²)
->
-> Square Root O(sqrt(n))
+This table lists some commonly encountered functions in ascending order of rate of growth. Any function can be given as Big O of any other fucntion that appears later in this table.
+> Constant O(1)
 >
 > Logarithmic O(log n)
 >
-> Constant O(1)
+> Square Root O(sqrt(n))
+>
+> Quadratic O(n²)
+>
+> Cubic O(n³)
+>
+> Polynomial O(n^k)
+>
+> Exponential O(k^n)
+>
+> Factorial O(n!)
 
 ### Simplified Asymptotic Analysis
 Like mentioned previously, once we have obtained the time complexity of an algorithm by counting primitive operations, we can arrive at the Big O notation for the algorithm by:
