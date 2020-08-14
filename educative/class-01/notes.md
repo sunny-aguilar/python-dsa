@@ -126,7 +126,7 @@ Total run time = C₁ + C₂⋅n + C₃
 
 **Nonlinear Time**
 - these are your curved graphs
-- n² or n³
+- i.e., n² or n³
 
 
 ###
