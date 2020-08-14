@@ -138,7 +138,7 @@ Like mentioned previously, once we have obtained the time complexity of an algor
 - dropping the multiplicative constants with all terms
 - dropping all bu the highest order term
 
-  > blockquote
+  > n² + 2n + 1 is O(n²) while n⁵ + 4n³ + 2n + 43 is O(n⁵)
 
 
 
