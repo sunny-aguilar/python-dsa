@@ -110,8 +110,8 @@ O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n)
 This code snippet shows a simple loop & the cost to run it. We get an equation from this which is the run time.
 
 ```
-sum = 0                       // C₁
-for (i =0; i < n; i++) {      // C₂⋅n
+sum = 0                       // C₁ - executes in contant time
+for (i =0; i < n; i++) {      // C₂⋅n - executes in C₂⋅n  time
   sum += array[i]
 }
 return sum                    // C₃
