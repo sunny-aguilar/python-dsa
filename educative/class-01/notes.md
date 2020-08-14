@@ -83,7 +83,7 @@ There are three main ways to classify the bounds of an algorithm:
 - Big Theta Θ Notation
 
 ### Big O Notation
-
+- asymptotic "less than" i.e. upper bound
 
 ### Big Omega Notation
 
