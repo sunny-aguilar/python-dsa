@@ -133,6 +133,13 @@ Total run time = C₁ + C₂⋅n + C₃
 ![Time Complexity](https://assets.digitalocean.com/articles/alligator/js/big-o-notation/o-complexity.png)
 
 
+### Simplified Asymptotic Analysis
+
+
+
+
+**Polynomials of degree K is O(kⁿ)**
+All polynomial functions f(n) of degree k are O(kⁿ). See proof. The polynomial proof tells you that you can ignore all the other terms in the polynomial because they are dominated by the leading term.
 
 ###
 
