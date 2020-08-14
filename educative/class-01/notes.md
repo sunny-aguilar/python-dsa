@@ -125,7 +125,12 @@ Total run time = C₁ + C₂⋅n + C₃
 - O(n)is runtime (linear time) in this case since we only have one n
 
 **Nonlinear Time**
+- these are your curved graphs
+- 
 
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
 
 ###
 
