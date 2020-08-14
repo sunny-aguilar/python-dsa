@@ -126,5 +126,6 @@ Total run time = C₁ + C₂⋅n + C₃
 
 **Nonlinear Time**
 
-### 
+
+###
 
