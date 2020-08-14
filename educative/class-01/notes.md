@@ -139,6 +139,7 @@ Like mentioned previously, once we have obtained the time complexity of an algor
 - dropping all bu the highest order term
 
   > n² + 2n + 1 is O(n²) while n⁵ + 4n³ + 2n + 43 is O(n⁵)
+  
   > n² + 2n + 1 is O(n²) while n⁵ + 4n³ + 2n + 43 is O(n⁵)
 
 
