@@ -114,7 +114,7 @@ sum = 0                       // C₁ - executes in contant time
 for (i =0; i < n; i++) {      // C₂⋅n - executes in C₂⋅n  time
   sum += array[i]
 }
-return sum                    // C₃
+return sum                    // C₃ - executes in contant time
 ```
 
 ###
