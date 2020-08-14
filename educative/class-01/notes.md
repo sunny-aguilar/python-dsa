@@ -119,6 +119,7 @@ return sum                    // C₃ - executes in contant time
 
 Total run time = C₁ + C₂⋅n + C₃
 
+**What is the Big O runtime?**
 
 ###
 
