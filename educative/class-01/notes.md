@@ -94,3 +94,4 @@ There are three main ways to classify the bounds of an algorithm:
 
 ### Big Theta Notation
 - asymptotic "equality"
+- tightly bound i.e. "ideal" bound
