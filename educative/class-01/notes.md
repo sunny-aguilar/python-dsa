@@ -128,6 +128,11 @@ Total run time = C₁ + C₂⋅n + C₃
 - these are your curved graphs
 - i.e., n² or n³
 
+**Orders of Growth**
+
+![Time Complexity](https://assets.digitalocean.com/articles/alligator/js/big-o-notation/o-complexity.png)
+
+
 
 ###
 
