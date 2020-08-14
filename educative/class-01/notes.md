@@ -85,11 +85,12 @@ There are three main ways to classify the bounds of an algorithm:
 ### Big O Notation
 - asymptotic "less than"
 - upper bound
-- f(n) = O(g(n)) implies : f(n) ≤ g(n)
+- f(n) = O(g(n)) implies: f(n) ≤ g(n)
 
 ### Big Omega Notation
 - asymptotic "greater than"
 - lower bound
+- f(n) = Ω(g(n)) implies: f(n) ≥ g(n)
 
 ### Big Theta Notation
 -
