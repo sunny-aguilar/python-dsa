@@ -133,7 +133,9 @@ Total run time = C₁ + C₂⋅n + C₃
 ![Time Complexity](https://assets.digitalocean.com/articles/alligator/js/big-o-notation/o-complexity.png)
 
 > Factorial O(n!)
+>
 > Exponential O()
+>
 > Polynomial O()
 > Cubic O()
 > Quadratic O()
