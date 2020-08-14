@@ -99,7 +99,7 @@ There are three main ways to classify the bounds of an algorithm:
 
 ### Big O Notation Definition
 O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n) ≤ c*g(n) for all n ≥ n₀
-- g(n) is an asymptotic upper bound for f(n)<br />
+- g(n) is an asymptotic upper bound for f(n)<br /><br />
 ![Big O Graph](https://i.stack.imgur.com/zc02g.jpg)
 
 
