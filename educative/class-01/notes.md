@@ -113,8 +113,8 @@ This code snippet shows a simple loop & the cost to run it. We get an equation f
 sum = 0
 for (i =0; i < n; i++) {
   sum += array[i]
-return sum
 }
+return sum
 ```
 
 ###
