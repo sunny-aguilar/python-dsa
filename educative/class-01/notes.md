@@ -128,9 +128,7 @@ Total run time = C₁ + C₂⋅n + C₃
 - these are your curved graphs
 - 
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
 ###
 
