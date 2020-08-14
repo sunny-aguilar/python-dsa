@@ -107,7 +107,7 @@ O(g(n)) = { f(n): there exist positive constants C and n₀ such that 0 ≤ f(n)
 ![Big O Graph](https://i.stack.imgur.com/zc02g.jpg)
 
 **Relate to Code**
-This 
+This code snippet shows a simple loop & the cost to run it.
 
 ### 
 
