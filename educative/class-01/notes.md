@@ -78,7 +78,7 @@ Constant factors:
 
 ### Asymptotic Notation
 There are three main ways to classify the bounds of an algorithm:
-- Big O Notation
+- Big Oh O Notation
 - Big Omega Ω Notation
 - Big Theta Θ Notation
 
