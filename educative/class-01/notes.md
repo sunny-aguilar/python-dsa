@@ -117,5 +117,8 @@ for (i =0; i < n; i++) {      // C₂⋅n - executes in C₂⋅n  time
 return sum                    // C₃ - executes in contant time
 ```
 
+Total run time = C₁ + C₂⋅n + C₃
+
+
 ###
 
