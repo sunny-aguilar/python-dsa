@@ -132,6 +132,14 @@ Total run time = C₁ + C₂⋅n + C₃
 
 ![Time Complexity](https://assets.digitalocean.com/articles/alligator/js/big-o-notation/o-complexity.png)
 
+> Factorial O(n!)
+> Exponential O()
+> Polynomial O()
+> Cubic O()
+> Quadratic O()
+> Square Root O()
+> Logarithmic O(log n)
+> Constant O(1)
 
 ### Simplified Asymptotic Analysis
 Like mentioned previously, once we have obtained the time complexity of an algorithm by counting primitive operations, we can arrive at the Big O notation for the algorithm by:
