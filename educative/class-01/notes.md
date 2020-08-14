@@ -137,10 +137,15 @@ Total run time = C₁ + C₂⋅n + C₃
 > Exponential O()
 >
 > Polynomial O()
+>
 > Cubic O()
+>
 > Quadratic O()
+>
 > Square Root O()
+>
 > Logarithmic O(log n)
+>
 > Constant O(1)
 
 ### Simplified Asymptotic Analysis
