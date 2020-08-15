@@ -168,5 +168,11 @@ Like mentioned previously, once we have obtained the time complexity of an algor
 **Polynomials of degree K is O(kⁿ)**
 All polynomial functions f(n) of degree k are O(kⁿ). See proof. The polynomial proof tells you that you can ignore all the other terms in the polynomial because they are dominated by the leading term.
 
-###
+### Why Big O is preferred over other notations
+It tends to be more useful to know that the worst case running time of a particular algorithm will grow at most as fast as a constant multiple of a certain function than to know that it will grow at least as fast as some other function.
+
+### Useful Formulas & General Tips When Calculating the Time Complexity
+- every time a list or array gets iteerated over c x length times, it is most likely O(n) time
+- when you see a problem where the number of elements in the problem space gets halved each time, that will most probably be in O(log n) runtime
+- whenever you have a singly nested loop, the problem is most likely in quadratic time
 
