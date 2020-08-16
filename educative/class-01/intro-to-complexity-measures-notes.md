@@ -176,3 +176,80 @@ It tends to be more useful to know that the worst case running time of a particu
 - when you see a problem where the number of elements in the problem space gets halved each time, that will most probably be in O(log n) runtime
 - whenever you have a singly nested loop, the problem is most likely in quadratic time
 
+## Common Complexity Scenarios
+### Simple For-loop
+```
+for x in range(n):
+  # statement(s) that take constant time
+```
+**Running Time Complexity = O(n)**
+**Explanation:** The loop runs a total of n times, herence the running time complexity is n.
+
+### For-loop with Increments
+```
+for x in range(1, n, k)
+  # statement(s) that take constant time
+```
+**Running Time Complexity = floor (n/k) = O(n)**
+**Explanation:** here the starting value of 1 is incremented by k until it reaches a number greater than or equal to n. It takes floor(n/k) time since there are tha many number that x is set to.
+
+### Simple Nested For-loop
+```
+for i in range(n):
+  for x in range(m):
+    # statement(s) that take(s) constant time
+```
+**Running Time Complexity = n * m = O(n⋅m)**
+**Explanation:** The inner loop is a simple for loop that takes m times and the outer loop runs n times. The outer loop runs n times and the inner loop runs m times at each iteration of the outer loop. This makes it so that it takes m * n time in total.
+
+### Nested For-loop with Dependent Variables
+```
+for i in range(n):
+  for x in range(i):
+    # statement(s) that take(s) contant time
+```
+**Running Time Complexity = (n - 1)((n -1) + 1) / 2 = O(n²)**
+**Explanation:** The outer loop runs n times and for each time the outer loop runs, the inner loop runs i times. The inner loop does not run at the first iteration since i = 0; it runs once at the second iteration, the twice, then thrice, and so on, until i is n - 1. So they run a total of 1 + 2 + 3 + ... + n -1 times = ∑(n-1)(i=1) i = ((n - 1)((n -1) + 1) / 2) = O(n²)
+
+### Nested For-loop with Index Modification
+```
+for i in range(n):
+  i *= 2
+  for x in range(i):
+    # statement(s) that take(s) contant time
+```
+**Running Time Complexity = n(n - 1) = n² - n = O(n²)**
+**Explanation:**
+|   Outer Loop   |         Inner Loop          |
+|________________|_____________________________|
+|    i = 0       |          i = 0*2 = 0        |
+|    i = 1       |          i = 1*2 = 2        |
+|    i = 2       |          i = 2*2 = 4        |
+|     ...        |            ...              |
+|   i = n - 1    |  i = (n) - 1) x 2 = 2n - 2  |
+
+This shows that the inner loop runs a total of 0 + 2 + 4 + ... + (2n - 2) times. Plugging this into a summation formula we get O(n²)
+
+### Loops with log(n) Time Complexity
+```
+i = #constant
+n = #constant
+k = #constant
+while i < n:
+  i *= k
+  # statement(s) that take(s) constant time
+```
+**Running Time Complexity = logₖ(n) = O(logₖ(n))**
+**Explanation:** a loop that ***multiplies/divides*** the loop variable by a contant such as above takes logₖ(n) time because the loop runs that many times. Consider the case where i = 1, n = 16, and k = 2:
+|      i   |   Count   |
+|__________|___________|
+|    1     |     1     |
+|    2     |     2     |
+|    4     |     3     |
+|    8     |     4     |
+|    16    |     -     |
+
+logₖ(n) = log₂(16) = 4
+
+
+
