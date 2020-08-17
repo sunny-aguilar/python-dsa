@@ -19,4 +19,5 @@ print(sum)
 
 ### Solution Review:
 The variable var gets set to n and then n - 3, n - (2 x 3), n - (3 x 3), ..., 3 in the outer loop. So the loop runs n/3 times.
+Therefore, the Big O complexity is: O(n²)
 
