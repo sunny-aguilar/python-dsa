@@ -18,5 +18,5 @@ print(sum)
 ```
 
 ### Solution Review:
-The variable var gets set to n and then n - 3, n - (2 x 3), n - (3 x 3), ..., 3 in the outer
+The variable var gets set to n and then n - 3, n - (2 x 3), n - (3 x 3), ..., 3 in the outer l
 
