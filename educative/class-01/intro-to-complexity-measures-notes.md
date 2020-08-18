@@ -220,7 +220,7 @@ for i in range(n):
 ```
 **Running Time Complexity = n(n - 1) = n² - n = O(n²)**
 **Explanation:**
-|   Outer Loop   |         Inner Loop          |
+|   Outer Loop   |Inner Loop                   |
 |----------------|-----------------------------|
 |    i = 0       |          i = 0*2 = 0        |
 |    i = 1       |          i = 1*2 = 2        |
@@ -247,7 +247,7 @@ while i < n:
 ```
 **Running Time Complexity = logₖ(n) = O(logₖ(n))**
 **Explanation:** a loop that ***multiplies/divides*** the loop variable by a contant such as above takes logₖ(n) time because the loop runs that many times. Consider the case where i = 1, n = 16, and k = 2:
-|      i   |   Count   |
+|    i     |   Count   |
 |----------|-----------|
 |    1     |     1     |
 |    2     |     2     |
