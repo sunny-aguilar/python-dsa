@@ -19,8 +19,8 @@ print(sum)
 ```
 
 ### My Solution:
-Outer loop runs n times. Innter loop runs (n * k) times. Since it is increasing by a contant multiple, then it is running in log time. Therefore, we have a total run time of n * log n = O(n⋅logn)
+Outer loop runs n times. Inner loop runs (n * k) times. Since it is increasing by a contant multiple, then it is running in log time. Therefore, we have a total run time of n * log n = O(n⋅logn)
 
 ### Solution Review:
-
+The answer is O(n). The outer loop runs log(n)
 
