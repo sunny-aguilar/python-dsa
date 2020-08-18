@@ -248,7 +248,7 @@ while i < n:
 **Running Time Complexity = logₖ(n) = O(logₖ(n))**
 **Explanation:** a loop that ***multiplies/divides*** the loop variable by a contant such as above takes logₖ(n) time because the loop runs that many times. Consider the case where i = 1, n = 16, and k = 2:
 |      i   |   Count   |
-|__________|___________|
+|----------|-----------|
 |    1     |     1     |
 |    2     |     2     |
 |    4     |     3     |
