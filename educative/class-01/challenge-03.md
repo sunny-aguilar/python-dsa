@@ -22,5 +22,5 @@ print(sum)
 Outer loop runs n times. Inner loop runs (n * k) times. Since it is increasing by a contant multiple, then it is running in log time. Therefore, we have a total run time of n * log n = O(n⋅logn)
 
 ### Solution Review:
-The answer is O(n). The outer loop runs log(n)
+The answer is O(n). The outer loop runs log(n) times and the inner loop runs 2n - 1 times. Therefore, log(n) + 2n - 1 = O(n).
 
