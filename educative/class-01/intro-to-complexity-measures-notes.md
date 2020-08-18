@@ -228,6 +228,12 @@ for i in range(n):
 |     ...        |            ...              |
 |   i = n - 1    |  i = (n) - 1) x 2 = 2n - 2  |
 
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
 This shows that the inner loop runs a total of 0 + 2 + 4 + ... + (2n - 2) times. Plugging this into a summation formula we get O(n²)
 
 ### Loops with log(n) Time Complexity
