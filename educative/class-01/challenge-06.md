@@ -19,7 +19,7 @@ for i in range(n):
 ```
 
 ### My solution:
-
+The outer loop runs n times. The inner loop runs log₂(n) times. Therefore we have nlog₂(n).
 
 ### Solution Review:
 
