@@ -22,4 +22,4 @@ for i in range(n):
 The outer loop runs n times. The inner loop runs log₂(n) times. Therefore we have nlog₂(n).
 
 ### Solution Review:
-
+The outer loop is O(n) as it iterates over n. The inner while loop 
