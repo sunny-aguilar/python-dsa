@@ -19,7 +19,7 @@ for var in range(n):
 ```
 
 ### My solution:
-Outerloop runs n times. Inner loop has j doubling at each iteration. Var is also increasing by 1 at each iteration.
+Outerloop runs n times. Inner loop has j doubling at each iteration. Var is also increasing by 1 at each iteration. Running Time Complexity = 1 + 1 + 1 + n + n + n + n = 3 + 5n.
 
 ### Solution Review:
 
