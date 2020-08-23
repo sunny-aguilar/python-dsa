@@ -22,4 +22,4 @@ for var in range(n):
 Outerloop runs n times. Inner loop has j doubling at each iteration. Var is also increasing by 1 at each iteration.
 
 ### Solution Review:
-Running Time Complexity = 1 + 1 + 1 + n + n + n + n = 3 + 5n. To find gthe Big O time complexity, 1. drop the leading constants and 2. drop the lower order terms.
+Running Time Complexity = 1 + 1 + 1 + n + n + n + n = 3 + 5n. To find gthe Big O time complexity, 1. drop the leading constants and 2. drop the lower order terms. Therefore
