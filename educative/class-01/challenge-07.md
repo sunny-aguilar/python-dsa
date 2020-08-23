@@ -19,7 +19,7 @@ for var in range(n):
 ```
 
 ### My solution:
-
+Outerloop runs n times. Inner loop has j doubling at each iteration.
 
 ### Solution Review:
 
