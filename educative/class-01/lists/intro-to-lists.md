@@ -21,7 +21,7 @@ The elements can be accessed or ‘indexed’ using square brackets. The first e
 These are some of the most useful built-in Python list functions.
 
 ### The Append() function
-
+Use this function to add a single element to the end of a list. This functions works in O(1) constant time.
 
 
 
