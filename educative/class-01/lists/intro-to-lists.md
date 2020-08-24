@@ -35,7 +35,15 @@ print(list)
 [1, 3, 5, 'seven', 9]
 ```
 
-
-
-
-
+### The ``` Insert() ``` function
+Inserts an element to the list. Use it like ```list.insert(index, value)```.
+- Time Complexity: O(1) constant time.
+```
+list = [1, 3, 5, 'seven']
+list.insert(0, 2)
+print(list)
+```
+**Output**
+```
+[2, 1, 3, 5, 'seven']
+```
