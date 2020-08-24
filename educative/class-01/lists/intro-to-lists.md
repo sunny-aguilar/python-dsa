@@ -18,4 +18,15 @@ Lists can hold:
 The elements can be accessed or ‘indexed’ using square brackets. The first element in a list is accessed using index 0 (as on line 7), the second element is accessed using 1, and so on.
 
 ## Important List Functions
+These are some of the most useful built-in Python list functions.
+
+
+
+
+
+
+
+
+
+
 
