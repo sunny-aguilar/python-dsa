@@ -20,7 +20,7 @@ The elements can be accessed or ‘indexed’ using square brackets. The first e
 ## Important List Functions
 These are some of the most useful built-in Python list functions.
 
-
+### The Append() function
 
 
 
