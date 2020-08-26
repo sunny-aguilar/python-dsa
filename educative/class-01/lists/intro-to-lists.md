@@ -118,5 +118,26 @@ Accessing/modifying several elements from objects such as lists/strings/tuples r
 ```
 list[start:end]
 ```
+-  note that 'end' is index - 1 or the total number of elements starting with 'start'
 
+### Slide Notation Example
+An example using slicing to perform various operations on lists.
+
+**Example 1: Indexing elements of a list**
+List elements can be indexed and printed as follows:
+```
+list = list(range(10))                          # create a list
+print(list)                                     # print the list
+print(list[0:4])                                # output a slice of the list
+```
+output
+```
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[0, 1, 2, 3]
+```
+
+With Python lists, it is not necessary to specify the last or first index; you can simply leave the end or start blank
+
+|Index-------------|Meaning---------------------------------------|
+|```list[start:]```|all numbers greater than start uptil the range |
 
