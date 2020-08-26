@@ -137,7 +137,8 @@ output
 ```
 
 With Python lists, it is not necessary to specify the last or first index; you can simply leave the end or start blank
-|Index        |Meaning                                        |
-|-------------|-----------------------------------------------|
-|list[start:] |all numbers greater than start uptil the range |
-
+|Index          |Meaning                                        |
+|---------------|-----------------------------------------------|
+|list[start:]   |all numbers greater than start uptil the range |
+|list[:end]     |all numbers less than end uptil the range      |
+|list[:]        |all numbers within the range                   |
