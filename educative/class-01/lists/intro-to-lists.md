@@ -97,7 +97,7 @@ print(list)
 ### The ``` Reverse() ``` function
 Reverses a list.
 - Use it as ```list.reverse()```
-- Time complexity *O(n)**
+- Time complexity: **O(n)**
 
 ```
 list = [1, 3, 5, 'seven']
@@ -112,4 +112,11 @@ print(list)
 ['seven', 5, 3, 1]
 ```
 <br />
+
+## What is Slicing?
+Accessing/modifying several elements from objects such as lists/strings/tuples requires using a for-loop in most languages but in Python, you can use square brackets and a colon to define a range of elements within a list that you wan to access or 'slice.'
+```
+list[start:end]
+```
+
 
