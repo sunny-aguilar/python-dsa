@@ -47,3 +47,13 @@ print(list)
 ```
 [2, 1, 3, 5, 'seven']
 ```
+
+### The ``` Remove() ``` function
+This function removes the given element at a given index.
+- Use it like ```list.remove(element)```
+- Time Complexity: O(n) constant time
+
+
+
+
+
