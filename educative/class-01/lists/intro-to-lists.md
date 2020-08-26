@@ -22,7 +22,8 @@ These are some of the most useful built-in Python list functions.
 
 ### The ``` Append() ``` function
 Use this function to add a single element to the end of a list.
-- Time Complexity: O(1) constant time.
+- Use it like ```list.append(value)```
+- Time Complexity: **O(1)** constant time.
 ```
 list = [1, 3, 5, 'seven']
 print(list)
@@ -36,8 +37,9 @@ print(list)
 ```
 
 ### The ``` Insert() ``` function
-Inserts an element to the list. Use it like ```list.insert(index, value)```.
-- Time Complexity: O(1) constant time.
+Inserts an element to the list.
+- Use it like ```list.insert(index, value)```.
+- Time Complexity: **O(1)** constant time.
 ```
 list = [1, 3, 5, 'seven']
 list.insert(0, 2)
@@ -51,7 +53,7 @@ print(list)
 ### The ``` Remove() ``` function
 This function removes the given element at a given index.
 - Use it like ```list.remove(element)```
-- Time Complexity: O(n) constant time
+- Time Complexity: **O(n)** constant time
 
 
 
