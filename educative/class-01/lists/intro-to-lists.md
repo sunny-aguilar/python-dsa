@@ -146,9 +146,9 @@ With Python lists, it is not necessary to specify the last or first index; you c
 **Example:**
 ```
 list = list(range(10))
-print(list[3:])     # 3, 4, 5, 6, 7, 8, 9
-print(list[:3])     # 0 1 2
-print(list[:])      # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+print(list[3:])                 # 3, 4, 5, 6, 7, 8, 9
+print(list[:3])                 # 0 1 2
+print(list[:])                  # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
 **Output:**
@@ -168,14 +168,16 @@ for (int i = 0; i < 10; i += 2)
 ```
 
 **Python Syntax**
-```list[start:stop:step]```
+```
+list[start:stop:step]
+```
 ```step``` specifies the increment (can also decrement)
 
 **Example:**
 ```
-list = list(range(10))    # define a range of 10 values
-print(list[0:9:2])        # 0, 2, 4, 6, 8
-print(list[9:0:-2])       # 9, 7, 5, 3, 1
+list = list(range(10))          # define a range of 10 values
+print(list[0:9:2])              # 0, 2, 4, 6, 8
+print(list[9:0:-2])             # 9, 7, 5, 3, 1
 ```
 
 **Output**
@@ -184,9 +186,84 @@ print(list[9:0:-2])       # 9, 7, 5, 3, 1
 [9, 7, 5, 3, 1]
 ```
 
+### Initializing List Elements
+You can add/modify the contents of a list by specifying a range of elements that you want to update and setting it to the new value:
+```
+arr[start:end] = [list, of, new, values]
+```
+
+**Example:**
+```
+x = list(range(5))
+print(x)  # 0, 1, 2, 3, 4
+x[1:4] = [45, 21, 83]
+print(x)  # 0, 45, 21, 83, 4
+```
+The 1:4 in the square brackets means that the elements at position 1, 2 and 3 will be set to the new values [45, 21, 84].
 
 
+**Output:**
+```
+[0, 1, 2, 3, 4]
+[0, 45, 21, 83, 4]
+```
+
+### Deleting Elements from a List Elements
+The del keyword is used to delete elements from a list.
+```
+arr[start:end] = [list, of, new, values]
+```
+
+**Example:**
+```
+list = list(range(10))
+print(list)                                 # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+del list[::2]
+print(list)                                 # 1, 3, 5, 7, 9
+```
+
+**Output:**
+```
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 3, 5, 7, 9]
+```
+
+***Explanation:*** Here, the empty start and end indices refer to 0 and length of the list by default, whereas 2 is the step size.
 
 
+### Negative Indexing
+We can use negative numbers to begin indexing the list elements from the end.
+```
+arr[-5]
+```
+Here, this would access the fifth-last element of a list.
+
+**Example:**
+```
+list = list(range(10))
+print(list)
+print(list[4:-1])  # 4, 5, 6, 7, 8
+```
+
+**Output:**
+```
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[4, 5, 6, 7, 8]
+```
+Here, the list above displays from the 4th index to the second last index
 
 
+### Slicing in Strings
+We can also use the slicing technique on strings since strings are an array of characters.
+**Example:**
+```
+my_string = "somehow"
+string1 = my_string[:4]
+string2 = my_string[4:]
+print(string1, string2)
+```
+
+**Output:**
+```
+some how
+```
