@@ -92,6 +92,24 @@ print(list)
 ```
 [1, 3, 5, 'seven']
 ```
+<br />
 
+### The ``` Reverse() ``` function
+Reverses a list.
+- Use it as ```list.reverse()```
+- Time complexity *O(n)**
 
+```
+list = [1, 3, 5, 'seven']
+print(list)
+list.reverse()
+print(list)
+```
+
+**Output**
+```
+[1, 3, 5, 'seven']
+['seven', 5, 3, 1]
+```
+<br />
 
