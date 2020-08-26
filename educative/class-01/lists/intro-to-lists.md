@@ -146,9 +146,9 @@ With Python lists, it is not necessary to specify the last or first index; you c
 **Example:**
 ```
 list = list(range(10))
-print(list[3:])  # 3, 4, 5, 6, 7, 8, 9
-print(list[:3])  # 0 1 2
-print(list[:])  # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+print(list[3:])     # 3, 4, 5, 6, 7, 8, 9
+print(list[:3])     # 0 1 2
+print(list[:])      # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
 **Output:**
@@ -157,4 +157,36 @@ print(list[:])  # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 [0, 1, 2]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+
+### Stepped Indexing
+You can also index elements in steps like in a for-loop such as
+```
+for (int i = 0; i < 10; i += 2)
+{
+  cout << arr[i] << endl;
+}
+```
+
+**Python Syntax**
+```list[start:stop:step]```
+```step``` specifies the increment (can also decrement)
+
+**Example:**
+```
+list = list(range(10))    # define a range of 10 values
+print(list[0:9:2])        # 0, 2, 4, 6, 8
+print(list[9:0:-2])       # 9, 7, 5, 3, 1
+```
+
+**Output**
+```
+[0, 2, 4, 6, 8]
+[9, 7, 5, 3, 1]
+```
+
+
+
+
+
+
 
