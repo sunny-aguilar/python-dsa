@@ -146,9 +146,9 @@ With Python lists, it is not necessary to specify the last or first index; you c
 **Example:**
 ```
 list = list(range(10))
-print(list[3:])                 # 3, 4, 5, 6, 7, 8, 9
-print(list[:3])                 # 0 1 2
-print(list[:])                  # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+print(list[3:])                       # 3, 4, 5, 6, 7, 8, 9
+print(list[:3])                       # 0 1 2
+print(list[:])                        # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
 **Output:**
@@ -195,9 +195,9 @@ arr[start:end] = [list, of, new, values]
 **Example:**
 ```
 x = list(range(5))
-print(x)  # 0, 1, 2, 3, 4
+print(x)                                # 0, 1, 2, 3, 4
 x[1:4] = [45, 21, 83]
-print(x)  # 0, 45, 21, 83, 4
+print(x)                                # 0, 45, 21, 83, 4
 ```
 The 1:4 in the square brackets means that the elements at position 1, 2 and 3 will be set to the new values [45, 21, 84].
 
