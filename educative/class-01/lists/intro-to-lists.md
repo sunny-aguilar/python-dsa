@@ -139,5 +139,5 @@ output
 With Python lists, it is not necessary to specify the last or first index; you can simply leave the end or start blank
 
 |Index-------------|Meaning---------------------------------------|
-|```list[start:]``` |all numbers greater than start uptil the range |
+|list[start:]      |all numbers greater than start uptil the range |
 
