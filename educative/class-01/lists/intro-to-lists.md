@@ -78,5 +78,20 @@ ValueError: list.remove(x): x not in list
 ```
 <br />
 
+### The ``` pop() ``` function
+Removes the element at the given index. If no index is given, then it removes the last element. So ```list.pop()``` would remove the last element. Time complexity depends on which element is removed.
+- Time Complexity: **O(1)** for the last element
+- Time complexity: **O(n)** Removing anything other than the last element
+
+```
+list = [1, 3, 5, 'seven']
+print(list)
+```
+
+**Output**
+```
+[1, 3, 5, 'seven']
+```
+
 
 
