@@ -35,6 +35,7 @@ print(list)
 [1, 3, 5, 'seven']
 [1, 3, 5, 'seven', 9]
 ```
+<br />
 
 ### The ``` Insert() ``` function
 Inserts an element to the list.
@@ -49,6 +50,7 @@ print(list)
 ```
 [2, 1, 3, 5, 'seven']
 ```
+<br />
 
 ### The ``` Remove() ``` function
 This function removes the given element at a given index.
