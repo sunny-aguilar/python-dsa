@@ -56,8 +56,27 @@ print(list)
 This function removes the given element at a given index.
 - Use it like ```list.remove(element)```
 - Time Complexity: **O(n)** constant time
+- Runtime error if value does not exist
 
+```
+list = [1, 3, 5, 'seven']
+print(list)
+list.remove('seven')
+print(list)
+list.remove(0)
+print(list)
+```
 
+**Output**
+```
+[1, 3, 5, 'seven']
+[1, 3, 5]
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    list.remove(0)
+ValueError: list.remove(x): x not in list
+```
+<br />
 
 
 
