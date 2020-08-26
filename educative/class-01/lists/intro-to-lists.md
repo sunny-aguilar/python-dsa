@@ -142,3 +142,19 @@ With Python lists, it is not necessary to specify the last or first index; you c
 |list[start:]   |all numbers greater than start uptil the range |
 |list[:end]     |all numbers less than end uptil the range      |
 |list[:]        |all numbers within the range                   |
+
+**Example:**
+```
+list = list(range(10))
+print(list[3:])  # 3, 4, 5, 6, 7, 8, 9
+print(list[:3])  # 0 1 2
+print(list[:])  # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+```
+
+**Output:**
+```
+[3, 4, 5, 6, 7, 8, 9]
+[0, 1, 2]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
