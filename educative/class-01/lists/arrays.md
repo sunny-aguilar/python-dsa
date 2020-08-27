@@ -27,7 +27,7 @@ There are several types of array in Python:
 
 |Type code        |C Type       |Python Type        |Minimum Size in Bytes      |
 |-----------------|-------------|-------------------|---------------------------|
-|```c```|||
+|```c```           |character   |char               |1                           |
 
 
 
