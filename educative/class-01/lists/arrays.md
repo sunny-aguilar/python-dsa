@@ -7,6 +7,7 @@ In Python, an array is an ordered sequence of homogeneous elements (can only hol
 ## Initializing Arrays
 Python arrays are initialized using the array library.
 ```
+import array
 
 ```
 
