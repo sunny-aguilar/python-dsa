@@ -26,8 +26,8 @@ print(new_array[0])
 There are several types of array in Python:
 
 |Type code        |C Type       |Python Type        |Minimum Size in Bytes      |
-
-
+|-----------------|-------------|-------------------|---------------------------|
+|```c```|||
 
 
 
