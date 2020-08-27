@@ -12,7 +12,7 @@ new_array = array.array('type', [list])
 ```
 ```Type``` defines the data type and ```list``` is a Python list containing homogenous elements.
 
-
+**Example:**
 
 
 
