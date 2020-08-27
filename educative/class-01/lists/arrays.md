@@ -22,6 +22,12 @@ print(new_array[0])
 ```
 **Line 4** creates an array. ```d``` indicates that the array is of type float.
 
+## Types of Arrays
+
+
+
+
+
 
 
 
