@@ -28,6 +28,13 @@ There are several types of array in Python:
 |Type code        |C Type       |Python Type        |Minimum Size in Bytes      |
 |-----------------|-------------|-------------------|---------------------------|
 |```c```           |character   |char               |1                           |
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
 
 
 
+## Array Slicing
