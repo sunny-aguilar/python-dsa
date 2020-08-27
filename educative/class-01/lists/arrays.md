@@ -5,7 +5,7 @@ Here we learn about arrays and how they are used in Python.
 In Python, an array is an ordered sequence of homogeneous elements (can only hold elements of one datatype). The type is constrained and specified at the time of creation.
 
 ## Initializing Arrays
-Python arrays are initialized
+Python arrays are initialized using the array library.
 
 
 
