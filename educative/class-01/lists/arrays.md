@@ -57,6 +57,22 @@ array('i', [0, 2, 3, 5, 7, 10])
 array('i', [0, 2, 4, 6, 8, 10])
 ```
 
+### Append and Extend Methods
+We can add one time to the end of an array using ```append()``` method or add several items using the ```extend()``` method
+
+```
+import array
+
+numbers = array.array('i', [1, 2, 3])
+
+numbers.append(4)
+print(numbers)  # array('i', [1, 2, 3, 4])
+
+# extend() appends iterable to the end of the array
+numbers.extend([5, 6, 7])
+print(numbers)     # array('i', [1, 2, 3, 4, 5, 6, 7])
+```
+
 
 
 
