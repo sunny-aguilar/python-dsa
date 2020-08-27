@@ -20,7 +20,7 @@ import array
 new_array = array.array('d', [1, 2, 3])
 print(new_array[0])
 ```
-**Line 4** creates an array.
+**Line 4** creates an array. ```d```
 
 
 
