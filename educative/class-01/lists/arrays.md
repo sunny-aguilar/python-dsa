@@ -14,7 +14,11 @@ new_array = array.array('type', [list])
 
 **Example:**
 ```
+import array
 
+# type: 'd' (float), initializer list: [1, 2, 3]
+new_array = array.array('d', [1, 2, 3])
+print(new_array[0])
 ```
 
 
