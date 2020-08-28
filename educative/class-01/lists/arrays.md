@@ -66,12 +66,14 @@ import array
 numbers = array.array('i', [1, 2, 3])
 
 numbers.append(4)
-print(numbers)  # array('i', [1, 2, 3, 4])
+print(numbers)              # array('i', [1, 2, 3, 4])
 
 # extend() appends iterable to the end of the array
 numbers.extend([5, 6, 7])
-print(numbers)     # array('i', [1, 2, 3, 4, 5, 6, 7])
+print(numbers)              # array('i', [1, 2, 3, 4, 5, 6, 7])
 ```
+
+
 
 
 
