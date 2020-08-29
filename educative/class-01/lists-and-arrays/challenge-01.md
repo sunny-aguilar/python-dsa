@@ -18,4 +18,10 @@ A list with only odd integers
 
 ![Example](https://i.ibb.co/8MkzSgF/Screen-Shot-2020-08-29-at-3-36-17-PM.png)
 
+### My Solution:
+```
+def remove_even(list):
+    # Write your code here!
+    pass
+```
 
