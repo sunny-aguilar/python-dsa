@@ -73,7 +73,7 @@ numbers.extend([5, 6, 7])
 print(numbers)                              # array('i', [1, 2, 3, 4, 5, 6, 7])
 ```
 
-### + operator
+### + operator (concatenation)
 You can concatenate two arrays using the + operator
 
 ```
@@ -88,4 +88,17 @@ integers = odd + even
 print(integers)
 ```
 
+### How do you remove/delete elements?
+TO delete one or more items from an array, use the del statement as with lists
 
+```
+import array
+
+integer_array = array.array('i', [1, 2, 3, 3, 4])
+
+del integer_array[2]  # removing third element
+print(integer_array)  # Output: array('i', [1, 2, 3, 4])
+
+del integer_array  # deleting entire array
+print(integer_array)  # Error: array is not defined
+```
