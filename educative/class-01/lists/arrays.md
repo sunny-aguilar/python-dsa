@@ -102,3 +102,8 @@ print(integer_array)              # Output: array('i', [1, 2, 3, 4])
 del integer_array                 # deleting entire array
 print(integer_array)              # Error: array is not defined
 ```
+
+You can also use the ```remove(val)``` method that will remove the first element that is equal to ```val``` in the array.
+> **Note:** An error is thrown if the index exceeds the size of the array or element is not found in the array.
+
+
