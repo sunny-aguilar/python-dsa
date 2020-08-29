@@ -96,9 +96,9 @@ import array
 
 integer_array = array.array('i', [1, 2, 3, 3, 4])
 
-del integer_array[2]  # removing third element
-print(integer_array)  # Output: array('i', [1, 2, 3, 4])
+del integer_array[2]              # removing third element
+print(integer_array)              # Output: array('i', [1, 2, 3, 4])
 
-del integer_array  # deleting entire array
-print(integer_array)  # Error: array is not defined
+del integer_array                 # deleting entire array
+print(integer_array)              # Error: array is not defined
 ```
