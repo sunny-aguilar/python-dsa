@@ -66,15 +66,26 @@ import array
 numbers = array.array('i', [1, 2, 3])
 
 numbers.append(4)
-print(numbers)              # array('i', [1, 2, 3, 4])
+print(numbers)                              # array('i', [1, 2, 3, 4])
 
 ## extend() appends iterable to the end of the array
 numbers.extend([5, 6, 7])
-print(numbers)              # array('i', [1, 2, 3, 4, 5, 6, 7])
+print(numbers)                              # array('i', [1, 2, 3, 4, 5, 6, 7])
 ```
 
+### + operator
+You can concatenate two arrays using the + operator
 
+```
+import array
 
+odd = array.array('i', [1, 3, 5])
+even = array.array('i', [2, 4, 6])
 
+integers = array.array('i')                 # creating empty array of integer
+integers = odd + even
+
+print(integers)
+```
 
 
